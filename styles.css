@@ -113,7 +113,7 @@ body {
     color: var(--text);
 }
 
-.witch-hat {
+.brand-icon {
     font-size: 2rem;
     animation: float-hat 3s ease-in-out infinite;
 }
@@ -554,6 +554,42 @@ body {
     margin-top: 0.5rem;
     font-style: italic;
     color: var(--text-secondary);
+}
+
+.footer-email {
+    margin-top: 1rem;
+}
+
+.footer-email a {
+    color: var(--primary-light);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-email a:hover {
+    color: var(--primary);
+}
+
+/* ===== BADGES ===== */
+.card-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: white;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.badge-secondary {
+    background: linear-gradient(135deg, var(--secondary), #d946a6);
+}
+
+.badge-accent {
+    background: linear-gradient(135deg, var(--accent), #059669);
 }
 
 /* ===== LEGAL PAGES STYLES ===== */
